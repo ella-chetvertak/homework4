@@ -49,5 +49,5 @@ for (let key in marks) {
 let averageMarks = sum / (marks.length);
 console.log(`Average mark of students is ${averageMarks}`);
 for (key in student1) {
-    console.log(key, student1[key])
+    console.log(`${key} - ${student1[key]}`);
 }
